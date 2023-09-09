@@ -25,7 +25,7 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="flex sticky z-50 top-0 left-0 bg-black justify-between items-center h-[10lvh] px-2">
+    <nav className="flex sticky z-50 top-0 left-0 bg-black  justify-between items-center h-[10lvh] px-2">
       <Link href={"/"}>
         <h3 className="text-3xl font-medium">Nonchalant&trade;</h3>
       </Link>

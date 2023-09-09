@@ -3,6 +3,7 @@
 import Link from "next/link";
 import ActivityCard from "./components/ActivityCard";
 import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function Home() {
   const [randomQuote, setRandomQuote] = useState({});
@@ -14,13 +15,20 @@ export default function Home() {
       .then((data) => setRandomQuote(data));
   }, []);
 
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
   return (
     <>
       <section className="px-2 text-center">
         <div>
           <h1 className=" text-3xl block mt-14 mb-5">
             Welcome to{" "}
-            <span className="underline underline-offset-4">Nonchalant</span>
+            <span className="underline underline-offset-4 translate-y-[-10%] ">
+              Nonchalant
+            </span>
           </h1>
           <span>
             Step into our world, where connections thrive in engaging
@@ -52,11 +60,11 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="mt-12">
+      <section className="mt-12 overflow-hidden">
         <h2 className="text-center underline underline-offset-4 text-3xl mb-24">
           Recent Activities
         </h2>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-20 ">
           <ActivityCard
             imageSrc={"/assets/DC.jpg"}
             title={"Damodar City Hunt"}
@@ -82,14 +90,14 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="mt-10 p-2 pt-6">
-        <h3 className="text-3xl mb-8  text-center underline underline-offset-4">
+      <section className="mt-10 p-2 overflow-hidden pt-6">
+        <h3 className="text-3xl mb-8 text-center underline underline-offset-4">
           FAQ's
         </h3>
-        <div className="mx-auto w-fit">
-          <details className=" border border-white/50 rounded border-solid my-2 p-4">
-            <summary className=" list-disc text-md">
-              How many members are there in Nonchalant?
+        <div className="mx-auto p-4">
+          <details className="border border-white/50 rounded border-solid p-4 my-2">
+            <summary className=" list-disc ">
+              How many members are in Nonchalant?
             </summary>
             <p className="mt-2 bg-neutral-950 text-white/90 p-2 rounded">
               Nonchalant currently consists of 12 members. 😊👥

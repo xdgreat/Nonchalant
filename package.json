@@ -1,5 +1,5 @@
 {
-  "name": "wajahat-munshi-location",
+  "name": "nonchalant",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,5 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "next": "^13.4.19"
   }
 }

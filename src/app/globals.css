@@ -27,3 +27,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.body-no-scroll {
+  overflow: hidden;
+}

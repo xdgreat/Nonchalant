@@ -13,7 +13,7 @@ export default function ActivityCard({
     <div className="relative flex w-80 z-10 flex-col mx-auto rounded-xl bg-clip-border bg-neutral-950">
       <img
         src={imageSrc}
-        className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+        className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg"
       />
       <div className="p-6">
         <p className="block font-sans text-base opacity-75 leading-relaxed text-inherit antialiased">
@@ -29,7 +29,7 @@ export default function ActivityCard({
       <div className="p-6 pt-0">
         <Link
           data-ripple-light="true"
-          className="select-none rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-medium uppercase text-white shadow-md shadow-white/10 transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="select-none rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-medium uppercase text-white border border-solid border-white/20 transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           href={linkToCard}
         >
           Read More

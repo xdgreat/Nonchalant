@@ -1,5 +1,6 @@
 import Link from "next/link";
+import NotFound from "../components/NotFound";
 
 export default function Members() {
-  return <Link href={"/about"}>Members</Link>;
+  return <NotFound />;
 }

@@ -222,7 +222,7 @@ export const membersData = {
     imageUrl: "/assets/Plavana.jpg",
     description:
       "Stubborn, Short girl with brains, Pretty, Crybaby,Good fashion sense.",
-    instagram: "https://instagram.com/",
+    instagram: "https://instagram.com/opacaro.phile.08",
     location: "Suva, Fiji",
     hobbies: ["None"],
     interests: ["I have none"],
@@ -245,7 +245,7 @@ export const membersData = {
       "https://open.spotify.com/playlist/4hfMkBFUEDdz7jNjjGOSHx?si=4Bq6CrktQf6pUlivPrnoVw",
     imageUrl: "/assets/Josh.jpg",
     description: "Lazy dumb big forehead and cakobau",
-    instagram: "https://instagram/beadybrag",
+    instagram: "https://www.instagram.com/beadybrag",
     location: "Lami, Fiji",
     hobbies: ["loser😔"],
     interests: ["Footy", "Anime"],

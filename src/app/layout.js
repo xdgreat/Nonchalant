@@ -1,7 +1,9 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import favicon from "./favicon.ico";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +25,7 @@ export const metadata = {
   viewport: "width=device-width, initial-scale=1.0",
   language: "en",
   charset: "UTF-8",
-  favicon: "https://nonchalantz.com/assets/favicon.ico",
+  favicon: favicon,
 };
 
 export default function RootLayout({ children }) {
@@ -32,6 +34,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>

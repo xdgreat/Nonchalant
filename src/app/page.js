@@ -31,9 +31,8 @@ export default function Home() {
             </span>
           </h1>
           <span>
-            Step into our world, where connections thrive in engaging
-            interactions, weaving a tapestry of camaraderie that enriches every
-            moment.
+            Life be simpler when you nonchalant, soon as you start nonchalanting
+            shi goes left.
           </span>
         </div>
         <div className="my-8 flex gap-6 justify-center items-center">

@@ -43,7 +43,7 @@ export const membersData = {
     interests: [],
     roles: ["OVO"],
     link: "/members/Shahaan",
-    gif: "https://media.giphy.com/media/4QPaVH07ErzOk8jK9B/giphy.gif",
+    gif: "https://cdn.discordapp.com/attachments/993789383868162098/1150395008659234846/giphy.gif",
   },
   nikhil: {
     name: "Nikhil",

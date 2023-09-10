@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import favicon from "./favicon.ico";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
@@ -8,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nonchalant - Explore Casual Adventures",
+  title: "Nonchalant - Explore Nonchalant's Stupidity",
   description: "Welcome to Nonchalant.",
   author: "Nikhil Naiker",
   keywords: "adventures, exploration, unique experiences, community",
@@ -19,18 +18,19 @@ export const metadata = {
   ogDescription: "Welcome to Nonchalant.",
   ogImage: "https://nonchalantz.com/path/to/open-graph-image.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: "Nonchalant - Explore Casual Adventures",
+  twitterTitle: "Nonchalant - Explore Nonchalant's Stupidity",
   twitterDescription: "Welcome to Nonchalant.",
   twitterImage: "https://nonchalantz.com/path/to/twitter-card-image.jpg",
-  viewport: "width=device-width, initial-scale=1.0",
-  language: "en",
   charset: "UTF-8",
-  favicon: favicon,
+  favicon: "https://nonchalantz.com/assets/favicon.ico",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/assets/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}

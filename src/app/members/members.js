@@ -23,7 +23,7 @@ export const membersData = {
     gif: "https://media.giphy.com/media/3o85xJohCZUc524lSU/giphy.gif",
   },
   shahaan: {
-    name: "Shahaan",
+    name: "Shahaan Shameel",
     age: "16",
     dob: "16/08/07",
     height: "5'8ft",
@@ -46,7 +46,7 @@ export const membersData = {
     gif: "https://cdn.discordapp.com/attachments/993789383868162098/1150395008659234846/giphy.gif",
   },
   nikhil: {
-    name: "Nikhil",
+    name: "Nikhil Aryan Naiker",
     age: "17",
     height: "5'7ft",
     weight: "83kg",
@@ -138,7 +138,7 @@ export const membersData = {
     gif: "https://media.giphy.com/media/Red9i0GN54sZW/giphy.gif",
   },
   xzya: {
-    name: "Xzya",
+    name: "Xzya Gagan",
     age: "18",
     dob: "19/05/05",
     height: "6ft",

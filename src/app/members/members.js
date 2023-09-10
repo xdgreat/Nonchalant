@@ -108,7 +108,7 @@ export const membersData = {
     location: "Suva, Fiji",
     hobbies: ["Football"],
     interests: ["Going to the gym and take a 5 month break "],
-    roles: ["Something "],
+    roles: ["Something", "Pedophile", "Alcoholic"],
     link: "/members/shane",
     gif: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJzdGd1aGR0ZHp0Z2hyZDBkdGdyam5oZjBlN3FxeDk2dHY1ZGQzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cOSbH8NoUFt9MXbuie/giphy.gif",
   },

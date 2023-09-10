@@ -8,7 +8,7 @@ export default function MemberProfiles() {
         return (
           <div className="w-[80vw] mx-auto my-24">
             <img src={members.gif} alt="" className="rounded-t-xl w-full" />
-            <div className=" relative bg-neutral-950 h-[47.5vh] rounded-b-xl flex  flex-col p-4 ">
+            <div className=" relative bg-neutral-950 h-max rounded-b-xl flex  flex-col p-4 ">
               <div className="absolute top-4 right-4 flex flex-col items-end gap-4">
                 <div className="flex flex-row gap-2">
                   <a href={members.instagram}>
@@ -58,7 +58,7 @@ export default function MemberProfiles() {
               </div>
               <Link
                 href={`${members.link}`}
-                className="text-center mt-auto mb-0 border-white/40 text-white/70 border border-solid rounded-sm p-2"
+                className="text-center mt-8 border-white/40 text-white/70 border border-solid rounded-sm p-2"
               >
                 Visit Profile
               </Link>

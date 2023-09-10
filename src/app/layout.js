@@ -30,6 +30,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/assets/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://nonchalantz.com/assets/logo.png"
+        />
       </head>
       <body className={inter.className}>
         <Navbar />

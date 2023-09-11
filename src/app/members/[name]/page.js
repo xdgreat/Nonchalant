@@ -71,19 +71,19 @@ export default async function name(context) {
             </div>
             <div>
               <label htmlFor="favWord" className="text-white/60 mt-4 text-sm">
-                Favorite Word
+                Favorite Word:
               </label>
               <p>{memberData.favoriteWord}</p>
             </div>
             <div>
               <label htmlFor="favArtist" className="text-white/60 mt-4 text-sm">
-                Favorite Artist
+                Favorite Artist:
               </label>
               <p>{memberData.favoriteArtist}</p>
             </div>
             <div>
               <label htmlFor="favColor" className="text-white/60 mt-4 text-sm">
-                Favorite Color
+                Favorite Color:
               </label>
               <p>{memberData.favoriteColor}</p>
             </div>
@@ -105,7 +105,7 @@ export default async function name(context) {
 
           <div className="my-4">
             <label htmlFor="hobbies" className="text-white/60 mt-4 text-sm">
-              Hobbies
+              Hobbies:
             </label>
             <div className="flex flex-row flex-wrap gap-2 mt-2">
               {memberData.hobbies.map((hobby) => {
@@ -120,7 +120,7 @@ export default async function name(context) {
           <div className="my-4">
             <div>
               <label htmlFor="role" className="text-white/60 mt-4 text-sm">
-                Roles
+                Roles:
               </label>
               <div className="flex flex-row flex-wrap gap-2 mt-2">
                 {memberData.roles.map((role) => {
@@ -136,7 +136,7 @@ export default async function name(context) {
           <div>
             <div>
               <label htmlFor="interests" className="text-white/60 mt-4 text-sm">
-                Roles
+                Interests:
               </label>
               <div className="flex flex-row flex-wrap gap-2 mt-2">
                 {memberData.interests.map((interest) => {

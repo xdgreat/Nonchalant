@@ -10,6 +10,8 @@ export const membersData = {
     favoriteSongUrl:
       "https://open.spotify.com/track/5LrN7yUQAzvthd4QujgPFr?si=2878935ad4b244df",
     favoriteWord: "Jhattu",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/5LrN7yUQAzvthd4QujgPFr?utm_source=generator",
     favoriteColor: "Prussian Blue",
     playlistUrl: "",
     imageUrl: "/assets/Aanush.jpg",
@@ -23,7 +25,7 @@ export const membersData = {
     gif: "https://media.giphy.com/media/3o85xJohCZUc524lSU/giphy.gif",
   },
   shahaan: {
-    name: "Shahaan Shameel",
+    name: "Mohammad Shahaan",
     age: "16",
     dob: "16/08/07",
     height: "5'8ft",
@@ -35,6 +37,8 @@ export const membersData = {
     favoriteColor: "Blue",
     playlistUrl:
       "https://open.spotify.com/track/0BxE4FqsDD1Ot4YuBXwAPp?si=40eb02c7a8114823",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/0BxE4FqsDD1Ot4YuBXwAPp?utm_source=generator",
     imageUrl: "/assets/Shahaan.jpg",
     description: "Funny irl but not online.",
     instagram: "https://instagram.com/shqhqqn",
@@ -42,7 +46,7 @@ export const membersData = {
     hobbies: ["Gaming", "Harassment"],
     interests: [],
     roles: ["OVO"],
-    link: "/members/Shahaan",
+    link: "/members/shahaan",
     gif: "https://cdn.discordapp.com/attachments/993789383868162098/1150395008659234846/giphy.gif",
   },
   nikhil: {
@@ -52,13 +56,16 @@ export const membersData = {
     weight: "83kg",
     favoriteArtist: "The Weeknd",
     favoriteSong: "Wicked Games",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/00aqkszH1FdUiJJWvX6iEl?si=003f57fbf2fb4ecb",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/00aqkszH1FdUiJJWvX6iEl?utm_source=generator",
     favoriteWord: "XO",
     favoriteColor: "Black",
     playlistUrl:
       "https://open.spotify.com/playlist/6TrcN8ZyCUJCzORfmc0gZ0?si=6f8d4b515e6d4b84",
     imageUrl: "/assets/Nikhil.jpg",
-    description: "I am vengeance",
+    description: "Waking up is the second hardest thing in the morning.",
     instagram: "https://instagram.com/fr3sh.budusy",
     location: "Suva, Fiji",
     hobbies: ["The Weeknd", "Brawlhalla", "Deadlifting"],
@@ -75,7 +82,10 @@ export const membersData = {
     weight: "74kg",
     favoriteArtist: "Baby Keem",
     favoriteSong: "16 by Baby Keem",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/1Is8hGpkGMiePASAxBluxM?si=f859d29a7cfc435d",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/1Is8hGpkGMiePASAxBluxM?utm_source=generator",
     favoriteWord: "starts with the letter n",
     favoriteColor: "Green",
     playlistUrl: "https://spotify.link/xRhavsetYCb",
@@ -98,7 +108,10 @@ export const membersData = {
     weight: "70kg",
     favoriteArtist: "The Neighborhood ",
     favoriteSong: "Secret Door by Arctic Monkeys",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/4dtP86vkhzwNXCFpCtizce?si=d14a64ec9aa445f2",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/4dtP86vkhzwNXCFpCtizce?utm_source=generator",
     favoriteWord: "acha bhai ",
     favoriteColor: "Black",
     playlistUrl: "https://open.spotify.com/playlist/22UzQUqngjGBQnCS1INF27",
@@ -121,7 +134,10 @@ export const membersData = {
     weight: "49kg",
     favoriteArtist: "Daniel Ceaser",
     favoriteSong: "Hold me down by Daniel Ceaser",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/1Mza2sr6tPhy6jjI3HB9fW?si=3314b8bd5e2048df",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/1Mza2sr6tPhy6jjI3HB9fW?utm_source=generator",
     favoriteWord: "Looooond",
     favoriteColor: "Lavender",
     playlistUrl:
@@ -145,8 +161,11 @@ export const membersData = {
     weight: "53kg",
     favoriteArtist: "Josh A",
     favoriteSong: "Heartbreaks by Josh A",
-    favoriteSongUrl: "",
-    favoriteWord: "Fuck",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/1AjJhhtf6JR3wanmu48lAM?si=e1a3be0d70644904",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/1AjJhhtf6JR3wanmu48lAM?utm_source=generator",
+    favoriteWord: "F**k",
     favoriteColor: "Black (it's a shade)",
     playlistUrl:
       "https://open.spotify.com/playlist/447RClBuLe7q1B0HhHx3HC?si=d708b56f450c4458",
@@ -171,7 +190,10 @@ export const membersData = {
     weight: "55kg",
     favoriteArtist: "Leo Messi",
     favoriteSong: "Chaleya by Arjit Singh",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/3xMHXmedL5Rvfxmiar9Ryv?si=8013ac9294b344bf",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/3xMHXmedL5Rvfxmiar9Ryv?utm_source=generator",
     favoriteWord: "Dovicai",
     favoriteColor: "Black",
     playlistUrl: "",
@@ -193,7 +215,10 @@ export const membersData = {
     weight: "50kg",
     favoriteArtist: "Clairo",
     favoriteSong: "Amoeba by Clairo",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/0HAqq2GcQKyi3s87GuN7jU?si=dab0b473da71446b",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/0HAqq2GcQKyi3s87GuN7jU?utm_source=generator",
     favoriteWord: "bro",
     favoriteColor: "Blue",
     playlistUrl: "",
@@ -215,8 +240,11 @@ export const membersData = {
     weight: "69kg",
     favoriteArtist: "Taylor Swift",
     favoriteSong: "Style by Taylor Swift",
-    favoriteSongUrl: "",
-    favoriteWord: "F***",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/0ug5NqcwcFR2xrfTkc7k8e?si=a17e633be6d14620",
+    favoriteSongEmbed:
+      "https://open.spotify.com/track/0ug5NqcwcFR2xrfTkc7k8e?si=a17e633be6d14620",
+    favoriteWord: "F**k",
     favoriteColor: "Yellowish Green",
     playlistUrl: "",
     imageUrl: "/assets/Plavana.jpg",
@@ -238,7 +266,10 @@ export const membersData = {
     weight: "67kg",
     favoriteArtist: "Drake",
     favoriteSong: "5am in Toronto by Drake",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/0FnxK9FEAQyPJ284QcieNb?si=af9113997f08402b",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/0FnxK9FEAQyPJ284QcieNb?utm_source=generator",
     favoriteWord: "Nigeria",
     favoriteColor: "Purple",
     playlistUrl:
@@ -261,7 +292,10 @@ export const membersData = {
     weight: "97kg",
     favoriteArtist: "Drake",
     favoriteSong: "Emotionless by Drake",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/5Psnhdkyanjpgc2P8A5TSM?si=284c0c7979744068",
+    favoriteSongEmbed:
+      "https://open.spotify.com/embed/track/5Psnhdkyanjpgc2P8A5TSM?utm_source=generator",
     favoriteWord: "Jhatu",
     favoriteColor: "Purple",
     playlistUrl: "https://spotify.link/1XFNBvktYCb",

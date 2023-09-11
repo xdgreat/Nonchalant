@@ -25,20 +25,26 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="flex sticky z-50 top-0 left-0 bg-black  justify-between items-center h-[10lvh] px-2">
+    <nav className="flex sticky z-50 top-0 left-0 bg-black  justify-between items-center h-[10lvh] px-2 xl:px-8">
       <Link href={"/"}>
-        <h3 className="text-3xl font-medium">Nonchalant&trade;</h3>
+        <h3 className="text-3xl font-medium xl:text-4xl">Nonchalant&trade;</h3>
       </Link>
       <img
         src={isOpen ? menuOpenSrc : menuCloseSrc}
         alt="menuopen"
-        className="w-12"
+        className="w-12 xl:hidden"
         onClick={handleMenuClick}
       />
+      <div className=" hidden xl:flex gap-4 text-xl font-[500] justify-center items-center">
+        <Link href={"/members"}>Members</Link>
+        <Link href={"/events"}>Events</Link>
+        <Link href={"/gallery"}>Gallery</Link>
+        <Link href={"/about"}>About</Link>
+      </div>
       {isOpen ? (
         <>
           <ul
-            className="absolute px-4 bg-black w-full inset-0 z-50 h-[90dvh] flex flex-col gap-4 font-medium top-[10lvh] uppercase text-lg "
+            className=" absolute px-4 bg-black w-full inset-0 z-50 h-[90dvh] flex flex-col gap-4 font-medium top-[10lvh] uppercase text-lg "
             style={{ fontFamily: "'Mulish', sans-serif" }}
           >
             <hr className="w-full mb-4" />

@@ -32,11 +32,12 @@ export const membersData = {
     weight: "79kg",
     favoriteArtist: "Drake",
     favoriteSong: "505 by Arctic Monkeys",
-    favoriteSongUrl: "",
+    favoriteSongUrl:
+      "https://open.spotify.com/track/0BxE4FqsDD1Ot4YuBXwAPp?si=40eb02c7a8114823",
     favoriteWord: "Propaganda",
     favoriteColor: "Blue",
     playlistUrl:
-      "https://open.spotify.com/track/0BxE4FqsDD1Ot4YuBXwAPp?si=40eb02c7a8114823",
+      "https://open.spotify.com/playlist/66LFf9vnnMOdkHTQLwvB0Y?si=508ef656eb84407c",
     favoriteSongEmbed:
       "https://open.spotify.com/embed/track/0BxE4FqsDD1Ot4YuBXwAPp?utm_source=generator",
     imageUrl: "/assets/Shahaan.jpg",

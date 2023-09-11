@@ -55,8 +55,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href={"/about"} onClick={() => setIsOpen(false)}>
-                About
+              <Link href={"/members"} onClick={() => setIsOpen(false)}>
+                Members
               </Link>
             </li>
             <li>
@@ -70,8 +70,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href={"/members"} onClick={() => setIsOpen(false)}>
-                Members
+              <Link href={"/about"} onClick={() => setIsOpen(false)}>
+                About
               </Link>
             </li>
             <div className="mt-auto mb-0">

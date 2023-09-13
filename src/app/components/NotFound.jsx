@@ -3,7 +3,11 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="flex flex-col justify-center items-center w-full h-[90dvh]">
-      <img src="/assets/lost.png" alt="Lost Image" />
+      <img
+        src="/assets/lost.png"
+        alt="Lost Image"
+        className="max-w-lg w-[70vw]"
+      />
       <h1 className="text-center text-4xl mt-10">Page Not Found :(</h1>
       <Link
         href={"/"}

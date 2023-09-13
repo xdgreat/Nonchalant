@@ -16,14 +16,14 @@ export default function ActivityCard({
   });
   return (
     <div
-      className={`relative flex w-80 opacity-0 translate-x-[50%] z-10 flex-col mx-auto rounded-xl bg-clip-border bg-neutral-950 ${
+      className={`relative flex w-80 xl:w-[30rem] opacity-0 translate-x-[50%] z-10 flex-col mx-auto rounded-xl bg-clip-border bg-neutral-950 ${
         inView ? "animation-X" : ""
       }`}
       ref={ref}
     >
       <img
         src={imageSrc}
-        className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
+        className="relative mx-4 -mt-6 aspect-video overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600"
       />
       <div className="p-6">
         <p className="block font-sans text-base opacity-75 leading-relaxed text-inherit antialiased">

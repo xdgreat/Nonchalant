@@ -32,7 +32,7 @@ export default async function name(context) {
           </div>
           <img
             src={memberData.imageUrl}
-            alt=""
+            alt="404 - Image Not Found"
             className=" absolute top-2 left-2 rounded-full w-28 xl:w-40 xl:h-40 object-cover h-28"
           />
           <div className="flex mt-28 xl:mt-40 gap-8 xl:gap-14 flex-wrap">

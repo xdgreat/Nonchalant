@@ -1,7 +1,3 @@
-import Link from "next/link";
-import NotFound from "../components/NotFound";
-import ActivityCard from "../components/ActivityCard";
-import { membersData } from "./members";
 import MemberProfiles from "../components/MemberProfiles";
 
 export default function Members() {

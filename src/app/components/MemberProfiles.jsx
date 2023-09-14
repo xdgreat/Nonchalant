@@ -63,7 +63,7 @@ export default function MemberProfiles() {
             </div>
             <Link
               href={`${members.link}`}
-              className="text-center mt-8 absolute bottom-[1rem] -translate-x-1/2 left-1/2 w-[95%] border-white/40 text-white/70 border border-solid rounded-sm p-2"
+              className="hover:border-white/80 transition-colors text-center mt-8 absolute bottom-[1rem] -translate-x-1/2 left-1/2 w-[95%] border-white/40 text-white/70 border border-solid rounded-sm p-2"
             >
               Visit Profile
             </Link>

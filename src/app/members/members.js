@@ -345,7 +345,7 @@ export const membersData = {
     height: "5'5 ft",
     weight: "skinny queen",
     favoriteArtist: "The Neighbourhood",
-    favoriteSong: "Emotionless by Drake",
+    favoriteSong: "ON THE FLOOR by removeface",
     favoriteSongUrl:
       "https://open.spotify.com/track/3j9Ivwkg9sYcaR9mlnjsAX?si=bd74b9d750ae4536",
     favoriteSongEmbed:

@@ -344,12 +344,12 @@ export const membersData = {
     dob: "31/03/07",
     height: "5'5 ft",
     weight: "skinny queen",
-    favoriteArtist: "Drake",
+    favoriteArtist: "The Neighbourhood",
     favoriteSong: "Emotionless by Drake",
     favoriteSongUrl:
-      "https://open.spotify.com/track/5Psnhdkyanjpgc2P8A5TSM?si=284c0c7979744068",
+      "https://open.spotify.com/track/3j9Ivwkg9sYcaR9mlnjsAX?si=bd74b9d750ae4536",
     favoriteSongEmbed:
-      "https://open.spotify.com/embed/track/5Psnhdkyanjpgc2P8A5TSM?utm_source=generator",
+      "https://open.spotify.com/embed/track/3j9Ivwkg9sYcaR9mlnjsAX?utm_source=generator",
     favoriteWord: "Fag",
     favoriteColor: "Black",
     playlistUrl: "https://spotify.link/r2FIv50t0Cb",
